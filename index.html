@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online-live-code-editor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7cb68b5ce6.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <h3><i class="fa-regular fa-newspaper"></i>ONLINE-LIVE-<span>CODE-EDITOR</span></h3>
+    <div class="container">
+        <div class="left">
+            <label><i class="fa-brands fa-html5 fa-bounce fa-xs" style="color: #9b9aa1;"></i></i> HTML</label>
+            <textarea id="html" onkeyup="run()"></textarea>
+            <label><i class="fa-brands fa-css3-alt fa-bounce fa-xs" style="color: #9b9aa1;"></i> CSS</label>
+            <textarea id="css" onkeyup="run()"></textarea>
+            <label><i class="fa-brands fa-square-js fa-fade fa-xs" style="color: #9b9aa1;"></i> JAVASCRIPT</label>
+            <textarea id="js" onkeyup="run()"></textarea>
+        </div>
+        <div class="right">
+            <label><i class="fa-solid fa-play fa-beat fa-xs" style="color: #9b9aa1;"></i> OUTPUT</label>
+            <iframe id="output"></iframe>
+        </div>
+
+    </div>
+</body>
+</html>
